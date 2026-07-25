@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export PNPM_HOME:/home/johan/\x2elocal/share/pnpm
+SETUVAR fish_user_paths:/home/johan/\x2elocal/share/pnpm\x1e/home/johan/\x2elocal/share/pnpm/bin
