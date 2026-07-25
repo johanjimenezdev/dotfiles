@@ -1,0 +1,7 @@
+customCommands:
+  - key: "C"
+    command: "cz commit"
+    description: "Commit with Commitizen"
+    context: "files"
+    loadingText: "Opening Commitizen..."
+    output: terminal
