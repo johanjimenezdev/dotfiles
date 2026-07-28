@@ -22,10 +22,10 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = " "
-format = "[$symbol$branch]($style)(base) "
+format = "[$symbol$branch]($style)(base)"
 
 [git_status]
-format = "[$untracked$staged$modified$renamed$conflicted$ahead_behind ]($style)"
+format = "[ $untracked$staged$modified$renamed$conflicted$ahead_behind ]($style)"
 staged     = "[+](green)"
 modified   = "[!](yellow)"
 renamed    = "[»](blue)"
@@ -37,5 +37,5 @@ ahead      = "[⇡${count}](teal)"
 behind     = "[⇣${count}](peach)"
 diverged   = "[⇕⇡${ahead_count}⇣${behind_count}](mauve)"
 
-[time]
+[cmd_duration]
 disabled = true
