@@ -66,3 +66,6 @@ vim.opt.listchars = {
 
 -- Undo file -------------------------------------------------
 vim.opt.undofile = true
+
+-- Swap file -------------------------------------------------
+vim.opt.swapfile = false
